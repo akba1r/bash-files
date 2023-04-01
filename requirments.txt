@@ -1,0 +1,5 @@
+
+#--- 5. Virtualbox : Install Virtualbox Prerequisits ----
+#
+sudo yum groupinstall "Development tools"
+sudo yum install kernel-headers qemu-kvm  patch gcc kernel-devel  make perl 
